@@ -18,3 +18,7 @@ The analyzer also supports speeding up the analysis, up to 32×, by sweeping mul
 The *Parallel* setting controls this behavior, but it may degrade analysis quality in some cases.
 
 Upon completion of the measurement, the data can be recorded to files for use with numerical analysis tools.
+
+## Building
+
+In order to build the software, you can type `qmake` and then `make`. If you prefer, you can import the project in Qt Creator and build it in the IDE. The prerequisites are Qt5, Qwt5 and JACK.
